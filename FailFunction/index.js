@@ -7,7 +7,7 @@ module.exports = function (context, req) {
     
         context.res = {
             status: 400,
-            body: "Hello from SecondFunction. Shared value:  " + sharedValue
+            body: "Hello from FailFunction. Shared value:  " + sharedValue
         };
     
         context.done();
